@@ -1,0 +1,106 @@
+body {
+    background-image: url('../images/projector.jpeg'), linear-gradient(to bottom, #fff, #000);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    min-height: 100vh;
+    margin: 0;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+a {
+    color: #fff;
+}
+
+.header {
+    padding: 10px;
+    margin-bottom: 58px;
+}
+
+.header__logo {
+    width: 50px;
+    display: block;
+}
+
+.header__nav {
+    margin-left: auto;
+    width: max-content;
+}
+
+.header__nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header__nav-item {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.main {
+    width: 100%;
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+.hero {
+    margin-bottom: 100px;
+}
+
+.hero__title {
+    font-size: 82px;
+    line-height: 100%;
+    margin: 0 0 20px;
+}
+
+.hero__description {
+    color: #ebdfdf;
+}
+
+.movies {
+
+}
+
+.movies__title {
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+
+.movies__description {
+    max-width: 390px;
+    font-size: 24px;
+    margin-bottom: 100px;
+}
+
+.movie__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 100%;
+    max-width: 252px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.movie__link:hover,
+.movie__link:focus {
+    background: #fff;
+    color: #000;
+}
+
+.movie__link:active {
+    opacity: .5;
+}
+
+
+
+
+
+
+
+
